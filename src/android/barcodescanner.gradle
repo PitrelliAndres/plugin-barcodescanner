@@ -7,7 +7,7 @@ repositories{
 
 
 configurations {
-    compile.exclude group: 'com.google.zxing'
+    compile.exclude group: 'com.android.support'
 }
 
 dependencies {
