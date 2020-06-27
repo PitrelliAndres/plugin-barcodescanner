@@ -5,8 +5,9 @@ repositories{
     }
 }
 
+
 configurations {
-    compile.exclude group: 'com.google.zxing'
+    exclude group: 'com.google.zxing'
 }
 
 dependencies {
