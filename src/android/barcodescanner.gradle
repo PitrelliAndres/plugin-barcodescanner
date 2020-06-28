@@ -6,17 +6,8 @@ repositories{
 }
 
 
-configurations {
-    compile.exclude group: 'com.android.support'
-}
-
 dependencies {
-    configurations.all {
-        exclude group: 'com.android.support', module: '*'
-    }
-    compile(name:'barcodescanner-release-2.1.5', ext:'aar') {
-        exclude group: 'com.google.zxing'
-    }
+    compile(name:'barcodescanner-release-2.1.5', ext:'aar')
 }
 
 android {
