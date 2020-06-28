@@ -5,9 +5,7 @@ repositories{
     }
 }
 
-configurations.all {
-    transitive = false
-}
+
 
 dependencies {
     compile(name:'barcodescanner-release-2.1.5', ext:'aar')
