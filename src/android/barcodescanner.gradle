@@ -5,7 +5,9 @@ repositories{
     }
 }
 
-
+dependencies {
+    compile(name:'barcodescanner-release-2.1.5_1', ext:'aar')
+}
 
 
 
