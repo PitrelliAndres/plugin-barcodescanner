@@ -43,7 +43,7 @@
     <framework src="src/android/barcodescanner.gradle" custom="true" type="gradleReference"/>
     <framework src="com.android.support:support-v4:$ANDROID_SUPPORT_V4_VERSION"/>
     <framework src="com.journeyapps:zxing-android-embedded:3.6.0" />
-    <lib-file src="src/android/barcodescanner-release-2.1.5_1.aar"/>
+    <!--lib-file src="src/android/barcodescanner-release-2.1.5_1.aar"/-->
     <preference name="ANDROID_SUPPORT_V4_VERSION" default="27.+"/>
   </platform>
   <platform name="windows">
